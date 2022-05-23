@@ -18,6 +18,7 @@ function procuraPrimos(N){
     }
     numerotestado++;
   }
+  numerosprimos.shift();
   console.log(numerosprimos);
   document.getElementById("Resposta").innerHTML = numerosprimos.join(" ");
 }
