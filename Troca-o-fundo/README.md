@@ -1,6 +1,6 @@
 # Projetos de cores de fundo
 
-## O projeto aqui apresentado, tanto o simples quando o hex foram feitos usando o tutorial e style.css do canal freeCodeCamp.org 
+## O projeto aqui apresentado, tanto o simples(index.html e script.js) quando o hex(hex.html e hex.js) foram feitos usando o tutorial e style.css do canal freeCodeCamp.org
 
 ## Projeto pessoal
 
