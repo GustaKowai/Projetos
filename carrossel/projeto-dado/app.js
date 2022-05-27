@@ -77,14 +77,15 @@ nextBtn.addEventListener('click',function(){
 prevBtn.addEventListener('click',function(){
   currentItem --;
   if(currentItem < 0){
-    currentItem = reviews.length-1
+    currentItem = reviews.length-1;
   }
   showPerson(currentItem);
 })
 
 randomBtn.addEventListener('click',function(){
   let randomNumber = getRandomNumber()
-  showPerson(randomNumber)
+  currentItem = randomNumber;
+  showPerson(currentItem)
 })
 
 function getRandomNumber(){
