@@ -48,15 +48,22 @@ main {
   max-width: 150px;
 }
 
+.titulo{
+  font-size: 50px;
+}
+
 #autor{
   border: 1px solid red;
   text-align: center;
+  font-size: 25px;
 }
 
 #job{
   border:  1px solid lightblue;
   text-align: center;
   text-transform: uppercase;
+  font-size: 20px;
+  color: gray;
 }
 #info{
   border: 1px solid green;
