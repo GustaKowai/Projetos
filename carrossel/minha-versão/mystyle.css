@@ -1,0 +1,102 @@
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #dddddd;
+}
+
+.container{
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fefefe;
+  min-height: 50vh;
+  min-width: 50vh;
+  display: grid;
+  place-items: center;  
+}
+.review{
+  border: 1px solid blue;
+  min-height: 100%;
+  min-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.img-cont{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  border-top: 15px solid rgb(12, 242, 54);
+  border-right: 15px solid rgb(14, 244, 55);
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+}
+#foto-pessoa {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+#autor{
+  border: 1px solid red;
+  text-align: center;
+}
+
+#job{
+  border:  1px solid lightblue;
+  text-align: center;
+  text-transform: uppercase;
+}
+#info{
+  border: 1px solid green;
+  text-align: center;
+}
+
+.botoes{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.prev,.next{
+  border-radius: 50%;
+  border-color: transparent;
+  color: black;
+  background-color: transparent;
+  font-size: 40px;
+  margin: 0 30px;
+  position:relative;
+}
+
+.prev:hover,.next:hover{
+  color: rgb(12, 242, 54);
+  transition: ease 1.0s;
+}
+.prev:active{
+  right: 15px;
+}
+.next:active{
+  left: 15px;
+}
+
+.random-btn{
+  margin-bottom: 10px;
+  background-color: #fefefe;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.random-btn:hover{
+  border-color: rgb(12, 242, 54);
+}
+.random-btn:active{
+  background-color: #dddddd;
+}
