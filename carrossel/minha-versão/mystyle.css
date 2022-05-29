@@ -5,25 +5,27 @@
   --cor-base-4: rgb(35, 89, 45);
   --cor-base-5: rgb(25, 75, 34);
 }
-
+body{
+  background-color: #555555;
+  font-family:  Arial, sans-serif;
+}
 main {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  background-color: #555555;
 }
 
 .container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(250, 250, 250, 0.8);
+  background-color: rgba(5, 5, 5, 0.8);
   min-height: 50vh;
   min-width: 50vh;
   max-width: 60vh;
   display: grid;
   place-items: center;
-  box-shadow: 0 4px 50px 0 rgba(0, 255, 0, 0.2), 0 6px 20px 0 rgba(0, 255, 0, 0.19);
+  box-shadow: 0 4px 50px 0 rgb(3, 244, 3), 0 6px 20px 0 rgba(0, 255, 0, 0.19);
   border-radius: 30px;
 }
 .review{
@@ -45,7 +47,7 @@ main {
   border-right: 10px double var(--cor-base-1);
   border-left: 5px solid black;
   border-bottom: 5px solid black;
-  box-shadow: 0 0 3px var(--cor-base-2);
+  box-shadow: 0px 0px 1px var(--cor-base-1), 0px 0px 3px var(--cor-base-1);
 }
 #foto-pessoa {
   width: 100%;
@@ -61,11 +63,13 @@ main {
 .titulo{
   margin: 10px;
   font-size: 40px;
+  text-shadow: 0px 0px 1px var(--cor-base-1), 0px 0px 3px var(--cor-base-1);
 }
 
 #autor{
   text-align: center;
   font-size: 25px;
+  text-shadow: 0px 0px 1px var(--cor-base-1), 0px 0px 3px var(--cor-base-1);
 }
 
 #job{
@@ -76,6 +80,8 @@ main {
 }
 #info{
   text-align: center;
+  color:#dddddd;
+  margin: 20px;
 }
 
 .botoes{
@@ -85,7 +91,7 @@ main {
 .prev,.next{
   border-radius: 50%;
   border-color: transparent;
-  color: black;
+  color: #dddddd;
   background-color: transparent;
   font-size: 40px;
   margin: 0 30px;
@@ -106,7 +112,7 @@ main {
 
 .random-btn{
   margin-bottom: 10px;
-  background-color: #fefefe;
+  background-color: #dddddd;
   border-radius: 15px;
   font-size: 20px;
   border: 1px solid;
