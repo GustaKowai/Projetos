@@ -32,9 +32,16 @@ main {
   max-width: 60vh;
   display: grid;
   place-items: center;
-  box-shadow: 0 4px 50px 0 var(--cor-neon-4), 0 6px 20px 0 var(--cor-neon-5);
+  box-shadow: 0 4px 50px 0 var(--cor-neon-3), 0 6px 20px 0 var(--cor-neon-3);
   border-radius: 30px;
 }
+
+.container:hover{
+  transition: ease 1.0s;
+  border: 0;
+  box-shadow: 0 4px 50px 0 var(--cor-neon-4), 0 6px 20px 0 var(--cor-neon-5);
+}
+
 .review{
     min-height: 100%;
   min-width: 100%;
