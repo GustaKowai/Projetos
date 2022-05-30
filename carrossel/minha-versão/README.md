@@ -13,3 +13,5 @@
 - Possível adição futura:
 
   - Gostaria que o "brilho" da borda aparecece devagar conforme muda o perfil.
+
+Código do cubo adaptado do postado em <https://codepen.io/hugobessaa/pen/xxqQMZy>
