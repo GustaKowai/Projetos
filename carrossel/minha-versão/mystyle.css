@@ -27,9 +27,8 @@ main {
   flex-direction: column;
   align-items: center;
   background-color: var(--cor-drk-bl);
-  min-height: 50vh;
-  min-width: 50vh;
-  max-width: 60vh;
+  height: 90vh;
+  width: 70vh;
   display: grid;
   place-items: center;
   box-shadow: 0 4px 50px 0 var(--cor-neon-3), 0 6px 20px 0 var(--cor-neon-3);
@@ -43,7 +42,7 @@ main {
 }
 
 .review{
-    min-height: 100%;
+  min-height: 100%;
   min-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -61,7 +60,7 @@ main {
   border-right: 10px double var(--cor-base-1);
   border-left: 10px double var(--cor-base-1);
   border-bottom: 5px solid black;
-  box-shadow: 0px 0px 1px var(--cor-base-1), 0px 0px 3px var(--cor-base-1);
+  box-shadow: 0px 0px 5px var(--cor-base-1), 0px 0px 3px var(--cor-base-1);
 }
 #foto-pessoa {
   width: 100%;
@@ -88,6 +87,7 @@ main {
   font-size: 25px;
   color: var(--cor-wht-grn);
   text-shadow: 0px 0px 1px var(--cor-base-1), 0px 0px 3px var(--cor-base-1);
+  text-transform: capitalize;
 }
 
 #job{
@@ -101,6 +101,7 @@ main {
   text-align: center;
   color:rgba(230, 230, 230, 0.9);
   margin: 20px;
+  height: 200px;
 }
 
 .botoes{
