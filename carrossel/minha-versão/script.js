@@ -87,7 +87,6 @@ randbtn.addEventListener('click', function(){
   let rand = itemAtual
   while (rand == itemAtual){ //Impede que o aleatório caia no mesmo número.
      rand = getARandom();
-     console.log(rand)
   }
   itemAtual = rand;
   changeReview(itemAtual);
