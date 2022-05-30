@@ -11,6 +11,7 @@
   --cor-neon-4: #f500bd;
   --cor-neon-5: #ff86c9;
   --cor-wht-grn: rgba(214, 255, 216, 0.9);
+  --cor-console-bkgr: rgb(12, 40, 17);
 }
 body{
   background-color: var(--cor-drk-bl);
@@ -26,7 +27,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--cor-drk-bl);
+  background-color: var(--cor-console-bkgr);
   height: 90vh;
   width: 70vh;
   display: grid;
@@ -77,7 +78,7 @@ main {
   margin: 10px;
   margin-top: 25px;
   font-size: 40px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Consolas;
   color: var(--cor-wht-grn);
   text-shadow: 0px 0px 1px var(--cor-base-1), 0px 0px 3px var(--cor-base-1);
 }
@@ -85,8 +86,10 @@ main {
 #autor{
   text-align: center;
   font-size: 25px;
+  margin-top: 55px;
   color: var(--cor-wht-grn);
   text-shadow: 0px 0px 1px var(--cor-base-1), 0px 0px 3px var(--cor-base-1);
+  font-family: Consolas;
   text-transform: capitalize;
 }
 
@@ -99,9 +102,10 @@ main {
 }
 #info{
   text-align: center;
-  color:rgba(230, 230, 230, 0.9);
+  color:var(--cor-base-1);
   margin: 20px;
   height: 200px;
+  font-family: Consolas;
 }
 
 .botoes{
